@@ -1,0 +1,25 @@
+
+<section>
+    <div class="container">
+      <div id="card-1">
+            <div id="img-div-1"></div>
+      </div>
+      
+      <div id="card-2">
+            <div id="img-div-2"></div>
+      </div>
+      
+      <div id="card-3">
+            <div id="img-div-3"></div>
+      </div>
+      
+      <div id="card-4">
+            <div id="img-div-4"></div>
+      </div>
+      
+       </div>
+  </div>
+  <div class="action-step">
+    <!--maybe make this into an include file that that I can add to other pages, then style with wrappers. -->
+  </div>
+</section>
