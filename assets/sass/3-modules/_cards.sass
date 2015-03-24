@@ -60,6 +60,42 @@
 
 @media (max-width: $medium)
     .container
+        #card-1
+            @include span-columns(5)
+            background:
+                image: url('/img/spike-square.png') /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            height: 20.93em
+        
+        #card-2
+            @include span-columns(6)
+            background:
+                image: url(/img/samurai-square.png) /* eventually, make this the post feature image */
+                size: cover
+                position: center
+            height: 10em
+
+            
+        #card-3
+            margin-top: 0.93em
+            @include span-columns(3)
+            background:
+                image: url("/img/guitar-man.jpg") 
+                size: cover
+                position: center
+            height: 10em
+
+        #card-4
+            margin-top: 0.93em
+            @include span-columns(3)
+            background:
+                image: url('/img/lion-square.png') 
+                size: cover
+                position: center
+            height: 10em
+
+/*    .container
         display: flex
         flex-direction: column
         flex-wrap: wrap
@@ -90,6 +126,7 @@
         
         div
             width: 100%
+        */
         
 @media (max-width: $small)
     .container

@@ -89,55 +89,84 @@ p {
     height: 40px; }
 
 @media (max-width: 58em) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; }
-    .container #card-1 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      height: 32em;
-      margin: 0.93em 0; }
-      .container #card-1:last-child {
-        margin-right: 0; }
-    .container #card-2 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      height: 17em;
-      margin: 0.93em/2 0; }
-      .container #card-2:last-child {
-        margin-right: 0; }
-    .container .container {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .container .container:last-child {
-        margin-right: 0; }
-      .container .container #card-3 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%;
-        height: 17em;
-        margin: 0.93em/2 0; }
-        .container .container #card-3:last-child {
-          margin-right: 0; }
-      .container .container #card-4 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 48.82117%;
-        height: 17em;
-        margin: 0.93em/2 0; }
-        .container .container #card-4:last-child {
-          margin-right: 0; }
-    .container div {
-      width: 100%; } }
+  .container #card-1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    background-image: url("/img/spike-square.png");
+    background-size: cover;
+    background-position: center;
+    height: 20.93em; }
+    .container #card-1:last-child {
+      margin-right: 0; }
+  .container #card-2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    background-image: url(/img/samurai-square.png);
+    background-size: cover;
+    background-position: center;
+    height: 10em; }
+    .container #card-2:last-child {
+      margin-right: 0; }
+  .container #card-3 {
+    margin-top: 0.93em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background-image: url("/img/guitar-man.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 10em; }
+    .container #card-3:last-child {
+      margin-right: 0; }
+  .container #card-4 {
+    margin-top: 0.93em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    background-image: url("/img/lion-square.png");
+    background-size: cover;
+    background-position: center;
+    height: 10em; }
+    .container #card-4:last-child {
+      margin-right: 0; } }
+/*    .container
+ * display: flex
+ * flex-direction: column
+ * flex-wrap: wrap
+ *
+ * #card-1
+ *     @include span-columns(12)
+ *     height: 32em
+ *     margin: 0.93em 0
+ *
+ * #card-2
+ *     @include span-columns(12)
+ *     height: 17em
+ *     margin: 0.93em/2 0
+ *
+ * .container
+ *     @include span-columns (12)
+ *
+ *
+ *     #card-3
+ *         @include span-columns(6)
+ *         height: 17em
+ *         margin: 0.93em/2 0
+ *
+ *     #card-4
+ *         @include span-columns(6)
+ *         height: 17em
+ *         margin: 0.93em/2 0
+ *
+ * div
+ *     width: 100%
+ */
 @media (max-width: 30em) {
   .container {
     -webkit-flex-direction: column;
