@@ -1,13 +1,15 @@
 .container
     @include outer-container
 
-@media (min-width: $large)
-   
-        
-@media (max-width: $large)
+    @media (min-width: $large)
+    
+    
+    
+    @media (max-width: $large)
     //at large add padding-left: 4em
 
     #card-1
+        box-shadow: 5px 5px 10px #aaa
         @include span-columns(5)
         background:
             image: url('/img/spike-square.png') /* eventually, make this the post feature image */
@@ -16,6 +18,7 @@
         height: $card-height+$card-margin
     
     #card-2
+        box-shadow: 5px 5px 10px #aaa
         @include span-columns(6)
         background:
             image: url(/img/samurai-square.png) 
@@ -25,6 +28,7 @@
 
         
     #card-3
+        box-shadow: 5px 5px 10px #aaa
         margin-top: 0.93em
         @include span-columns(3)
         background:
@@ -34,6 +38,7 @@
         height: $card-height/2
 
     #card-4
+        box-shadow: 5px 5px 10px #aaa
         margin-top: 0.93em
         @include span-columns(3)
         background:
@@ -110,6 +115,7 @@
         
         div
             width: 100%
+
 
 
 

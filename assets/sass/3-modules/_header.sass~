@@ -1,0 +1,21 @@
+header
+    display: flex
+    @include outer-container
+
+    
+    .logo
+        height: 60px
+        svg
+            fill: #444
+            
+    
+    nav
+        justify-self: flex-end
+        a
+            margin: 0 $card-margin
+
+            font:
+                weight: 700
+            text-transform: uppercase
+            color: $primary-font-color
+        

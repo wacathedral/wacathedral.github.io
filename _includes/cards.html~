@@ -1,19 +1,21 @@
 
 <section>
     <div class="container">
-        <div id="card-1">
-        </div>
-            <div class="container">
-                <div id="card-2">
-                </div>
-                <div class="container">
-                    <div id="card-3">
-                    </div>
-                    <div id="card-4">
-                    </div>
-                </div>
-        </div>
-    </div>
+      <a href="#"><div id="card-1">
+        <!-- add category main-card -->
+      </div></a>
+      <a href="#"><div id="card-2">
+        <!-- add category event-->
+      </div></a>
+        <div class="container">
+          <a href="#"><div id="card-3">
+            <!-- add category action step-->
+          </div></a>
+          <a href="#"><div id="card-4">
+            <!--add category blog post-->
+          </div></a>
+       </div>
+  </div>
   <div class="action-step">
     <div class="wrap">
     <h2>Action Step</h2>

@@ -1,0 +1,9 @@
+header
+    .logo
+    nav
+        a(href="#") Start
+        a(href="#") Gatherings
+        a(href="#") Community
+        a(href="#") Service
+        
+
