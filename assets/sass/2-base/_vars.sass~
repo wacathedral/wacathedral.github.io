@@ -1,9 +1,9 @@
-$card-margin: 0.93em
-$card-height: 32em
+$height: 38vw
+$margin: 1vw
 
 
 //Media Queries: @media (max-width: $small)
-$small: 30em
+$small: 500px
 $medium: 58em
 $large: 68em
 //for xlarge: @media (min-width: $large)
@@ -13,4 +13,4 @@ $large: 68em
 //Fonts
 $open-sans: Open Sans
 $montserrat: Montserrat
-$primary-font-color: #000
+$primary-font-color: black

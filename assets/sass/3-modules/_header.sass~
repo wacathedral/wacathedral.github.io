@@ -10,9 +10,10 @@ header
             
     
     nav
-        justify-self: flex-end
+        display: flex
+        justify-content: flex-end
         a
-            margin: 0 $card-margin
+            margin: 0 $margins
 
             font:
                 weight: 700
