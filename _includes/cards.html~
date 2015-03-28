@@ -4,16 +4,18 @@
       <a href="#" id="card-1">
         <!-- add category main-card -->
       </a>
-      <div id="card-2">
+      <a href="#" id="card-2">
         <!-- add category event-->
-      </div>
-        <div class="container">
-          <div id="card-3">
-            <!-- add category action step-->
-          </div>
-          <div id="card-4">
-            <!--add category blog post-->
-          </div>
+      </a>
+        <div class="wrap">
+            <div class="wrapper">
+              <a href="#" id="card-3">
+                <!-- add category action step-->
+              </a>
+              <a href="#" id="card-4">
+                <!--add category blog post-->
+              </a>
+            </div>
        </div>
   </div>
   <div class="action-step">

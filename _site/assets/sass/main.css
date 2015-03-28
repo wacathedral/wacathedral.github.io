@@ -41,171 +41,124 @@ a {
   margin: 0 auto;
   max-width: 68em; }
 
-.container {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .container::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .container #card-1 {
-    box-shadow: 5px 5px 10px #aaa;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    background-image: url("/img/spike-square.png");
-    background-size: cover;
-    background-position: center;
-    height: 62.046vh; }
-    .container #card-1:last-child {
-      margin-right: 0; }
-  .container #card-2 {
-    box-shadow: 5px 5px 10px #aaa;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    background-image: url(/img/redsun-square.png);
-    background-size: cover;
-    background-position: center;
-    height: 30vh; }
-    .container #card-2:last-child {
-      margin-right: 0; }
-  .container #card-3 {
-    box-shadow: 5px 5px 10px #aaa;
-    margin-top: 0.93em;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    background-image: url("/img/guitar-man.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 30vh; }
-    .container #card-3:last-child {
-      margin-right: 0; }
-  .container #card-4 {
-    box-shadow: 5px 5px 10px #aaa;
-    margin-top: 0.93em;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    background-image: url("/img/lion-square.png");
-    background-size: cover;
-    background-position: center;
-    height: 30vh; }
-    .container #card-4:last-child {
-      margin-right: 0; }
-
-.action-step {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center; }
-  .action-step::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .action-step .wrap {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%; }
-    .action-step .wrap:last-child {
-      margin-right: 0; }
-  .action-step button {
-    height: 40px; }
-
-@media (max-width: 58em) {
-  .container #card-1 {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%;
-    height: 58.07286vh; }
-    .container #card-1:last-child {
-      margin-right: 0; }
-  .container #card-2 {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 48.82117%;
-    height: 27.90698vh; }
-    .container #card-2:last-child {
-      margin-right: 0; }
-  .container #card-3 {
-    margin-top: 0.93em;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    height: 27.90698vh; }
-    .container #card-3:last-child {
-      margin-right: 0; }
-  .container #card-4 {
-    margin-top: 0.93em;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
-    height: 27.90698vh; }
-    .container #card-4:last-child {
-      margin-right: 0; } }
-@media (max-width: 30em) {
-  .container {
-    -webkit-flex-direction: column;
+@media screen and (min-width: 68em) {
+  section .container {
+    display: flex;
+    flex-direction: row; }
+    section .container #card-1 {
+      box-shadow: 5px 5px 10px #aaa;
+      flex: 1;
+      background-image: url("/img/spike-square.png");
+      background-size: cover;
+      background-position: center;
+      height: 34.112em;
+      margin: 0.96em; }
+    section .container #card-2 {
+      flex: 1;
+      box-shadow: 5px 5px 10px #aaa;
+      background-image: url(/img/redsun-square.png);
+      background-size: cover;
+      background-position: center;
+      height: 16em;
+      margin: 0.96em; }
+    section .container .wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      section .container .wrap .wrapper {
+        flex: 1;
+        justify-content: space-around;
+        display: flex; }
+        section .container .wrap .wrapper #card-3 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin-top: 0.93em;
+          flex: 1;
+          background-image: url("/img/guitar-man.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 16em;
+          margin: 0.96em; }
+        section .container .wrap .wrapper #card-4 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin: 0.96em;
+          flex: 1;
+          background-image: url("/img/lion-square.png");
+          background-size: cover;
+          background-position: center;
+          height: 16em; }
+  section .action-step {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    section .action-step .wrap {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      section .action-step .wrap:last-child {
+        margin-right: 0; }
+    section .action-step button {
+      height: 40px; } }
+@media screen and (max-width: 58em) {
+  section .container {
+    display: flex;
     flex-direction: column; }
-    .container #card-1 {
+    section .container #card-1 {
+      box-shadow: 5px 5px 10px #aaa;
+      flex: 1;
+      background-image: url("/img/spike-square.png");
+      background-size: cover;
+      background-position: center;
+      height: 34.112em;
+      margin: 0.96em; }
+    section .container #card-2 {
+      flex: 1;
+      box-shadow: 5px 5px 10px #aaa;
+      background-image: url(/img/redsun-square.png);
+      background-size: cover;
+      background-position: center;
+      height: 16em;
+      margin: 0.96em; }
+    section .container .wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      section .container .wrap .wrapper {
+        flex: 1;
+        justify-content: space-around;
+        display: flex; }
+        section .container .wrap .wrapper #card-3 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin-top: 0.93em;
+          flex: 1;
+          background-image: url("/img/guitar-man.jpg");
+          background-size: cover;
+          background-position: center;
+          height: 16em;
+          margin: 0.96em; }
+        section .container .wrap .wrapper #card-4 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin: 0.96em;
+          flex: 1;
+          background-image: url("/img/lion-square.png");
+          background-size: cover;
+          background-position: center;
+          height: 16em; }
+  section .action-step {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    section .action-step .wrap {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 100%;
-      height: 30vh;
-      margin: 0.93em 0; }
-      .container #card-1:last-child {
+      width: 65.88078%; }
+      section .action-step .wrap:last-child {
         margin-right: 0; }
-    .container #card-2 {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%;
-      height: 30vh;
-      margin: 0.93em/2 0; }
-      .container #card-2:last-child {
-        margin-right: 0; }
-    .container .container {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      .container .container:last-child {
-        margin-right: 0; }
-      .container .container #card-3 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        height: 30vh;
-        margin: 0.93em/2 0; }
-        .container .container #card-3:last-child {
-          margin-right: 0; }
-      .container .container #card-4 {
-        float: left;
-        display: block;
-        margin-right: 2.35765%;
-        width: 100%;
-        height: 30vh;
-        margin: 0.93em/2 0; }
-        .container .container #card-4:last-child {
-          margin-right: 0; }
-    .container div {
-      width: 100%; } }
+    section .action-step button {
+      height: 40px; } }
 header {
   display: flex;
   justify-content: space-between;
@@ -218,7 +171,7 @@ header {
     display: flex;
     justify-content: flex-end; }
     header nav a {
-      margin: 0 0.93vh;
+      margin: 0 0.96em;
       font-weight: 700;
       text-transform: uppercase;
       color: black; }
