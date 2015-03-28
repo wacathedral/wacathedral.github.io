@@ -7,7 +7,7 @@
     
     @media (max-width: $large)
     //at large add padding-left: 4em
-
+    
     #card-1
         box-shadow: 5px 5px 10px #aaa
         @include span-columns(5)
@@ -15,7 +15,7 @@
             image: url('/img/spike-square.png') /* eventually, make this the post feature image */
             size: cover
             position: center
-        height: $card-height+$card-margin
+        height: $card-height+$card-margin*2.2
     
     #card-2
         box-shadow: 5px 5px 10px #aaa
@@ -66,21 +66,21 @@
     .container
         #card-1
             @include span-columns(5)
-            height: ($card-height/1.6)+$card-margin
+            height: ($card-height/1.05)+$card-margin
         
         #card-2
             @include span-columns(6)
-            height: $card-height/3.2
+            height: $card-height/2.15
             
         #card-3
             margin-top: 0.93em
             @include span-columns(3)
-            height: $card-height/3.2
+            height: $card-height/2.15
 
         #card-4
             margin-top: 0.93em
             @include span-columns(3)
-            height: $card-height/3.2
+            height: $card-height/2.15
 
         
 @media (max-width: $small)
