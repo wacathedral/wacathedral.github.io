@@ -21,7 +21,7 @@
         box-shadow: 5px 5px 10px #aaa
         @include span-columns(6)
         background:
-            image: url(/img/samurai-square.png) 
+            image: url(/img/redsun-square.png) 
             size: cover
             position: center
         height: $card-height/2

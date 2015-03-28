@@ -1,5 +1,10 @@
 
-<header>
+<header class="positioner">
   <div class="logo">{% include logo/ben-concept.svg %}</div>
-  <nav><a href="#">Start</a><a href="#">Gatherings</a><a href="#">Community</a><a href="#">Service</a></nav>
+  <nav>
+    <a href="#">Start</a>
+    <a href="#">Gatherings</a>
+    <a href="#">Community</a>
+    <a href="#">Service</a>
+  </nav>
 </header>
