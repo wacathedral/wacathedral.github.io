@@ -1,0 +1,11 @@
+%display-flex-supported
+    display: -webkit-box
+    display: -moz-box
+    display: ms-flexbox
+    display: flex
+    
+    
+%sm-card-sizing
+    height: $card-height/2
+    margin: $card-margin
+    

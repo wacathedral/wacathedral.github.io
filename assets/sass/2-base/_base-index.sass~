@@ -1,2 +1,2 @@
-@include 'vars'
-@include 'base'
+@import 'vars'
+@import 'base'

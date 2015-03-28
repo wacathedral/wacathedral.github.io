@@ -42,6 +42,10 @@ a {
   max-width: 68em; }
 
 @media screen and (min-width: 68em) {
+  section .container #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+    height: 16em;
+    margin: 0.96em; }
+
   section .container {
     display: flex;
     flex-direction: row; }
@@ -58,9 +62,7 @@ a {
       box-shadow: 5px 5px 10px #aaa;
       background-image: url(/img/redsun-square.png);
       background-size: cover;
-      background-position: center;
-      height: 16em;
-      margin: 0.96em; }
+      background-position: center; }
     section .container .wrap {
       flex: 1;
       display: flex;
@@ -75,17 +77,70 @@ a {
           flex: 1;
           background-image: url("/img/guitar-man.jpg");
           background-size: cover;
-          background-position: center;
-          height: 16em;
-          margin: 0.96em; }
+          background-position: center; }
         section .container .wrap .wrapper #card-4 {
           box-shadow: 5px 5px 10px #aaa;
-          margin: 0.96em;
           flex: 1;
           background-image: url("/img/lion-square.png");
           background-size: cover;
-          background-position: center;
-          height: 16em; }
+          background-position: center; }
+  section .action-step {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    section .action-step .wrap {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      section .action-step .wrap:last-child {
+        margin-right: 0; }
+    section .action-step button {
+      height: 40px; } }
+@media screen and (max-width: 68em) {
+  section .container #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+    height: 16em;
+    margin: 0.96em; }
+
+  section .container {
+    display: flex;
+    flex-direction: row; }
+    section .container #card-1 {
+      box-shadow: 5px 5px 10px #aaa;
+      flex: 1;
+      background-image: url("/img/spike-square.png");
+      background-size: cover;
+      background-position: center;
+      height: 34.112em;
+      margin: 0.96em; }
+    section .container #card-2 {
+      flex: 1;
+      box-shadow: 5px 5px 10px #aaa;
+      background-image: url(/img/redsun-square.png);
+      background-size: cover;
+      background-position: center; }
+    section .container .wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      section .container .wrap .wrapper {
+        flex: 1;
+        justify-content: space-around;
+        display: flex; }
+        section .container .wrap .wrapper #card-3 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin-top: 0.93em;
+          flex: 1;
+          background-image: url("/img/guitar-man.jpg");
+          background-size: cover;
+          background-position: center; }
+        section .container .wrap .wrapper #card-4 {
+          box-shadow: 5px 5px 10px #aaa;
+          flex: 1;
+          background-image: url("/img/lion-square.png");
+          background-size: cover;
+          background-position: center; }
   section .action-step {
     display: flex;
     justify-content: space-around;
@@ -101,6 +156,10 @@ a {
     section .action-step button {
       height: 40px; } }
 @media screen and (max-width: 58em) {
+  section .container #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+    height: 32em;
+    margin: 0.96em; }
+
   section .container {
     display: flex;
     flex-direction: column; }
@@ -117,34 +176,83 @@ a {
       box-shadow: 5px 5px 10px #aaa;
       background-image: url(/img/redsun-square.png);
       background-size: cover;
-      background-position: center;
-      height: 16em;
-      margin: 0.96em; }
+      background-position: center; }
     section .container .wrap {
       flex: 1;
       display: flex;
       flex-direction: column; }
       section .container .wrap .wrapper {
         flex: 1;
-        justify-content: space-around;
-        display: flex; }
+        display: flex;
+        flex-direction: column; }
         section .container .wrap .wrapper #card-3 {
           box-shadow: 5px 5px 10px #aaa;
           margin-top: 0.93em;
           flex: 1;
           background-image: url("/img/guitar-man.jpg");
           background-size: cover;
-          background-position: center;
-          height: 16em;
-          margin: 0.96em; }
+          background-position: center; }
         section .container .wrap .wrapper #card-4 {
           box-shadow: 5px 5px 10px #aaa;
-          margin: 0.96em;
           flex: 1;
           background-image: url("/img/lion-square.png");
           background-size: cover;
-          background-position: center;
-          height: 16em; }
+          background-position: center; }
+  section .action-step {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; }
+    section .action-step .wrap {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%; }
+      section .action-step .wrap:last-child {
+        margin-right: 0; }
+    section .action-step button {
+      height: 40px; } }
+@media screen and (max-width: 30em) {
+  section .container #card-1, section .container #card-2, section .container .wrap .wrapper #card-3, section .container .wrap .wrapper #card-4 {
+    height: 16em;
+    margin: 0.96em; }
+
+  section .container {
+    display: flex;
+    flex-direction: column; }
+    section .container #card-1 {
+      box-shadow: 5px 5px 10px #aaa;
+      flex: 1;
+      background-image: url("/img/spike-square.png");
+      background-size: cover;
+      background-position: center; }
+    section .container #card-2 {
+      flex: 1;
+      box-shadow: 5px 5px 10px #aaa;
+      background-image: url(/img/redsun-square.png);
+      background-size: cover;
+      background-position: center; }
+    section .container .wrap {
+      flex: 1;
+      display: flex;
+      flex-direction: column; }
+      section .container .wrap .wrapper {
+        flex: 1;
+        display: flex;
+        flex-direction: column; }
+        section .container .wrap .wrapper #card-3 {
+          box-shadow: 5px 5px 10px #aaa;
+          margin-top: 0.93em;
+          flex: 1;
+          background-image: url("/img/guitar-man.jpg");
+          background-size: cover;
+          background-position: center; }
+        section .container .wrap .wrapper #card-4 {
+          box-shadow: 5px 5px 10px #aaa;
+          flex: 1;
+          background-image: url("/img/lion-square.png");
+          background-size: cover;
+          background-position: center; }
   section .action-step {
     display: flex;
     justify-content: space-around;
