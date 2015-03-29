@@ -1,5 +1,5 @@
-$card-height: 60vh
-$card-margin: $card-height*0.03
+$card-height: 30em
+$card-margin: $card-height*0.02
 
 //Media Queries: @media (max-width: $small)
 $small: 30em

@@ -1,4 +1,4 @@
-%-sm-card-sizing
+%sm-card-sizing
     height: $card-height/2
     margin: $card-margin    
 

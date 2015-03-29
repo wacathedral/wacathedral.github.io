@@ -1,5 +1,5 @@
 %lg-card-sizing
-    height: $card-height/2
+    height: ($card-height/2)-$card-margin
     margin: $card-margin
 
 section
@@ -15,7 +15,7 @@ section
                 image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
-            height: $card-height+$card-margin*2.2
+            height: $card-height+$card-margin
             margin: $card-margin
         
         #card-2
@@ -38,13 +38,13 @@ section
                 display: flex
                 #card-3
                     box-shadow: 5px 5px 10px #aaa
-                    margin-top: 0.93em
                     flex: 1
                     background:
                         image: url("/img/guitar-man.jpg") 
                         size: cover
                         position: center
                     @extend %lg-card-sizing
+                    margin-top: $card-margin/2
 
                 #card-4
                     box-shadow: 5px 5px 10px #aaa
@@ -54,6 +54,7 @@ section
                         size: cover
                         position: center
                     @extend %lg-card-sizing
+                    margin-top: $card-margin/2
         
     .action-step
         display: flex
