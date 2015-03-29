@@ -9,4 +9,7 @@ placeholders is empty because I haven't found a way to add placeholders in media
 
 ##What I'm working on now
 ###Flexbox Support for Safari & Firefox
-I made a mixin library  (/assets/sass/1-tools/_flexbox-support.sass).  It contains all of the flexbox items that I've used so far
+I made a mixin library  (/assets/sass/1-tools/_flexbox-support.sass).  It contains all of the flexbox items that I've used so far. They seem to be working, but none of them make any difference on iOS Safari or Firefox
+
+#A Note: 
+##[That logo that I designed is not going to stay. I'm just messing with using the svg properties in the html doc]
