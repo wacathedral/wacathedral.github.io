@@ -1,11 +1,12 @@
 @media screen and (min-width: $large)
-    @import 'partials/xl-card'
+    @import '_partials/xl-card'
     
 @media screen and (max-width: $large)
-    @import 'partials/large-card'
+    @import '_partials/large-card'
    
 @media screen and (max-width: $medium)
-    @import 'partials/medium-card'
+    @import '_partials/medium-card'
         
 @media screen and (max-width: $small)
-    @import 'partials/small-card'
+    @import '_partials/small-card'
+    @import 'flex-support'
