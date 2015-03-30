@@ -11,21 +11,21 @@ section
     
         #card-1
             box-shadow: 5px 5px 10px #aaa
-            +flex($card-height/2)
+            +flex(1 1 0px)
             background:
                 image: url('/img/spike-square.png') /* eventually, make this the post feature image */
                 size: cover
                 position: center
-            @extend %sm-card-sizing
+
         
         #card-2
-            +flex($card-height/2)
+            +flex(1 0px)
             box-shadow: 5px 5px 10px #aaa
             background:
                 image: url(/img/redsun-square.png) 
                 size: cover
                 position: center
-            @extend %sm-card-sizing
+
 
         .wrap     
             +flex-display
@@ -44,7 +44,7 @@ section
                         image: url("/img/guitar-man.jpg") 
                         size: cover
                         position: center
-                    @extend %sm-card-sizing
+
 
                 #card-4
                     box-shadow: 5px 5px 10px #aaa
@@ -53,7 +53,7 @@ section
                         image: url('/img/lion-square.png') 
                         size: cover
                         position: center
-                    @extend %sm-card-sizing
+
         
     .action-step
         +flex-display
