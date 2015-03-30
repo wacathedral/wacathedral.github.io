@@ -11,5 +11,7 @@ placeholders is empty because I haven't found a way to add placeholders in media
 ###Flexbox Support for Safari & Firefox
 I made a mixin library  (/assets/sass/1-tools/_flexbox-support.sass).  It contains all of the flexbox items that I've used so far. They seem to be working, but none of them make any difference on iOS Safari or Firefox
 
+3/30: I got this to work in Firefox at all media sizes by manually adding a size to the +flex mixin.  Now, for some reason, flex-direction: column doesn't work in Safari iOS 8.  Need to figure that out.
+
 #A Note: 
 ##[That logo that I designed is not going to stay. I'm just messing with using the svg properties in the html doc]
