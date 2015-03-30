@@ -1,0 +1,11 @@
+@media screen and (min-width: $large)
+    @import '_partials/xl-card'
+    
+@media screen and (min-width: $large)
+    @import '_partials/large-card'
+   
+@media screen and (min-width: $medium)
+    @import '_partials/medium-card'
+        
+@media screen and (min-width: $small)
+    @import '_partials/small-card'
